@@ -38,7 +38,6 @@ function game() {
   let gameWinner = { player: 0, computer: 0 };
   for (let i = 0; i < 5; i++) {
     const computerSelection = computerPlay();
-    console.log(`computerSelection ${computerSelection}`);
     const playerSelection = playerPlay();
     const winner = playRound(playerSelection, computerSelection);
     gameWinner[winner] = gameWinner[winner] + 1;
