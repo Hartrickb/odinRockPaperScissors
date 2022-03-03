@@ -8,7 +8,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .buttons {
@@ -28,4 +28,8 @@
   color: white;
   padding: 20px;
   border-radius: 10px;
+}
+
+.score {
+  font-size: large;
 }
