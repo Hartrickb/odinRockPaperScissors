@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gameContainer {
+  padding: 5% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.buttons {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#Rock,
+#Paper,
+#Scissors {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#outcome {
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}

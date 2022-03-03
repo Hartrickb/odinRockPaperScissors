@@ -27,17 +27,17 @@ function playRound(playerSelection, computerSelection) {
     (playerSelection === 'Scissors' && computerSelection === 'Paper')
   ) {
     console.log(`You win! ${playerSelection} beats ${computerSelection}`);
-    outcomeDiv.style.backgroundColor = 'green';
+    outcomeDiv.style.backgroundColor = '#70C1B3';
     outcomeDiv.textContent = `You win! ${playerSelection} beats ${computerSelection}`;
     return 'player';
   } else if (playerSelection === computerSelection) {
     console.log('You tied. Try again.');
-    outcomeDiv.style.backgroundColor = 'gray';
+    outcomeDiv.style.backgroundColor = 'lightgrey';
     outcomeDiv.textContent = 'You tied. Try again.';
     return 'tie';
   } else {
     console.log(`You lose. ${computerSelection} beats ${playerSelection}`);
-    outcomeDiv.style.backgroundColor = 'red';
+    outcomeDiv.style.backgroundColor = 'lightcoral';
     outcomeDiv.textContent = `You lose. ${computerSelection} beats ${playerSelection}`;
     return 'computer';
   }
