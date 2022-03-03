@@ -14,7 +14,8 @@
 .buttons {
   width: 70%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 20px;
 }
 
 #Rock,
@@ -22,6 +23,7 @@
 #Scissors {
   padding: 10px;
   border-radius: 10px;
+  width: 100px;
 }
 
 #outcome {
