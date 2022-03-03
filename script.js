@@ -43,18 +43,6 @@ function playRound(playerSelection, computerSelection) {
   }
 }
 
-// Plays five rounds and prints an overall winner
-function game() {
-  // let gameWinner = { player: 0, computer: 0 };
-  // for (let i = 0; i < 5; i++) {
-  //   const computerSelection = computerPlay();
-  //   const playerSelection = playerPlay();
-  //   const winner = playRound(playerSelection, computerSelection);
-  //   gameWinner[winner] = gameWinner[winner] + 1;
-  // }
-  // console.log(gameWinner);
-}
-
 const buttons = document.querySelectorAll('.playGame');
 console.log(buttons);
 buttons.forEach((button) => {
